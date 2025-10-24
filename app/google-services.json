@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "911638103587",
+    "project_id": "jtestapp-b27a0",
+    "storage_bucket": "jtestapp-b27a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911638103587:android:d76ff2136a464084955396",
+        "android_client_info": {
+          "package_name": "com.jared.onesignaltest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3FQWYlmxD3a4exDxzPNOw5RWbZbbEKR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
