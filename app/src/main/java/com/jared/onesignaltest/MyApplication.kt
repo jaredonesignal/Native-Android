@@ -18,7 +18,7 @@ class MyApplication : Application() {
         // Initialize OneSignal with your App ID
         OneSignal.initWithContext(this, "4dc8fa38-f480-4cee-bc94-72774104d411")
 
-        // Request notification permission (Android 13+) in a coroutine
+        // Request notification permission (Android 13+)
         CoroutineScope(Dispatchers.Main).launch {
             OneSignal.Notifications.requestPermission(true)
         }
