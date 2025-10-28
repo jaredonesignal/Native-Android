@@ -22,5 +22,7 @@ class MyApplication : Application() {
         CoroutineScope(Dispatchers.Main).launch {
             OneSignal.Notifications.requestPermission(true)
         }
+        //IAM
+        OneSignal.InAppMessages.addTrigger("test", "true")
     }
 }
